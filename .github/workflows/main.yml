@@ -14,8 +14,8 @@ jobs:
 
       - name: Install Dependencies
         run: |
-         sudo apt-get update
-         sudo apt-get install -y libpng-dev
+          sudo apt-get update
+          sudo apt-get install -y build-essential pkg-config libpng-dev
 
       - name: Checkout rgbds
         uses: actions/checkout@master
